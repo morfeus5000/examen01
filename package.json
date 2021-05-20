@@ -21,8 +21,6 @@
     "mocha": "^8.4.0"
   },
   "dependencies": {
-    "chai": "^4.3.4",
-    "chai-http": "^4.3.0",
     "dotenv": "^9.0.2",
     "express": "^4.17.1"
   }
