@@ -3,9 +3,13 @@
 
 ## Objetivo:
 Números Primos:
-Realizar un algoritmo que imprima los números primos entre 1 y un número dado, de forma
+Realizar un algoritmo que imprima los **números primos entre 1 y un número dado**, de forma
 descendente.
+
+**Observación**: (Los numeros entre 1 y numero dado no puede incluir el 1 o el valor dato si cumple como numero primo)
+
 Por ejemplo dado el número 7 se debería imprimir 7,5,3,2,1
+
 Por ejemplo dado el número 15 se debería imprimir 13,11,7,5,3,2,1
 Esto debe venir en un proyecto NodeJS.
 
@@ -25,6 +29,11 @@ El proyecto esta basado en node.js:
 1. Instalar la paquetería ```npm install```
 2. Prueba de resultado ```npm test```
 3. ingresa al directorio `npm start`
+
+## Docker
+El proyecto esta basado en Dockerfile:
+1. Obtener paquetes ```docker pull leviatan/examen01```
+2. Correr la imagen ```docker run -p 3000:3000 -d leviatan/examen01```
 
 ## Variables de entorno
 
